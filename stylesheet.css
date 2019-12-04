@@ -66,7 +66,7 @@ a:hover {
 
 p {
     position: relative;
-    left: 10%;
+    left: 13%;
     color: rgb(34, 34, 34);
     font-size: small;
 }
@@ -99,17 +99,25 @@ p a {
 
 #center {
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#center img {
-    padding: 0 0 5% 20%;
+#logo {
+    padding: 0 0 5% 25%;
 }
 
 #textbox {
     margin-bottom: 5%;
+    border-radius: 4em;
+    padding: 0.85em 1em 0.85em 3em;
+    border: 1px solid #dfe1e5;
+    font-size: 1em;
+}
+
+#textbox:hover, #textbox:focus {
+    box-shadow: 0 0 0.15em 0.13em rgba(0,0,0,.15);
 }
 
 #buttons {
@@ -118,4 +126,22 @@ p a {
 
 #buttons input {
     margin-right: 0.5em;
+    padding: 0.7em 1.3em;
+    border: none;
+    color: #5F6368;
+    border-radius: 4px;
+}
+
+#buttons input:hover {
+    color: #222;
+    border: 1px solid #a6a8aa;
+    box-shadow: 0 0.1em 1px 0 rgba(0,0,0,.15);
+}
+
+#magnifyer {
+    position: absolute;
+    left: 3%;
+    max-width: 23px;
+    height: auto;
+    top: 49%;
 }
