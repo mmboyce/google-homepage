@@ -1,3 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+#sign-in {
+    background-color: #4486f9;
+    padding: 0.6em 1em;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+    background-color: #3d79df;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #header {
     position: fixed;
     top: 0;
@@ -8,7 +34,7 @@
 #header-right {
     position: inherit;
     right: 2%;
-    top: 0.4em;
+    top: 0.7em;
 }
 
 #block {
@@ -23,15 +49,19 @@
 #header-left {
     position: inherit;
     left: 2%;
-    top: 4%;
+    top: 2.5%;
 }
 
 #header, #footer {
-    font-size: 0.8;
+    font-size: 0.8em;
 }
 
-#header div *, #footer div * {
-    margin: 0 0.25em;
+#header div *{
+    margin: 0 0.5em;
+}
+
+#footer div * {
+    margin: 0 1em;
 }
 
 p {
@@ -39,6 +69,10 @@ p {
     left: 10%;
     color: rgb(34, 34, 34);
     font-size: small;
+}
+
+p a {
+    color: #1a0dab;
 }
 
 #footer {
@@ -53,8 +87,8 @@ p {
 
 #footer-left {
     position: inherit;
-    padding-top: 0.5em;
-    left: 1.3em;
+    padding-top: 1em;
+    left: 2em;
 }
 
 #footer-right {
